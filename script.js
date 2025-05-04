@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
     scene.gravity = new BABYLON.Vector3(0, -0.5, 0);
     
     // Kamera
-    const camera = new BABYLON.FollowCamera("FollowCam", new BABYLON.Vector3(0, 2, -10), scene);
+    const camera = new BABYLON.FollowCamera("FollowCam", new BABYLON.Vector3(0, 2, -1), scene);
     camera.radius = 8;
     camera.heightOffset = 0;
     camera.rotationOffset = 180;
