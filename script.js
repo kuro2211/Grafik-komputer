@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", () => {
     hemiLight.groundColor = new BABYLON.Color3(0.4, 0.3, 0.2);
 
     const dirLight = new BABYLON.DirectionalLight("dir", new BABYLON.Vector3(-1, -2, -1), scene);
-    dirLight.position = new BABYLON.Vector3(0, 15, 0);
+    dirLight.position = new BABYLON.Vector3(8, 3, 30);
     dirLight.intensity = 1.0;
     dirLight.diffuse = new BABYLON.Color3(1, 0.95, 0.8);
 
