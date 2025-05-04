@@ -10,8 +10,8 @@ window.addEventListener("DOMContentLoaded", () => {
     
     // Kamera
     const camera = new BABYLON.FollowCamera("FollowCam", new BABYLON.Vector3(0, 2, -10), scene);
-    camera.radius = 12;
-    camera.heightOffset = 4;
+    camera.radius = 8;
+    camera.heightOffset = 0;
     camera.rotationOffset = 180;
     camera.cameraAcceleration = 0.005;
     camera.maxCameraSpeed = 0.5;
