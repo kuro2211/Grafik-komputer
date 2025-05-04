@@ -150,8 +150,6 @@ window.addEventListener("DOMContentLoaded", () => {
           animating = true;
           if (inputMap["s"]) {
             walkBackAnim?.start(true, 1.0, walkBackAnim.from, walkBackAnim.to, false);
-          } else if (inputMap["b"]) {
-            sambaAnim?.start(true, 1.0, sambaAnim.from, sambaAnim.to, false);
           } else {
             walkAnim?.start(true, 1.0, walkAnim.from, walkAnim.to, false);
           }
